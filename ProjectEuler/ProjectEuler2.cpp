@@ -1,5 +1,4 @@
 #include <iostream>
-#include <map>
 using namespace std;
 
 typedef unsigned long long ull;
@@ -9,7 +8,7 @@ ull compute(ull n) {
 
     ull total = 0; 
     while(fib2 < n) {
-        if (fib2 % 2LL == 0LL) {
+        if (fib2 % 2 == 0) {
             total += fib2;
         } 
         ull fib3 = fib1 + fib2;
